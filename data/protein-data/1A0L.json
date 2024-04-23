@@ -1,0 +1,532 @@
+{
+    "entry_id": "1A0L",
+    "polymer_entities": [
+        {
+            "entity_id": "1",
+            "type": "polypeptide(L)",
+            "sequence": "IVGGQEAPRSKWPWQVSLRVHGPYWMHFCGGSLIHPQWVLTAAHCVGPDVKDLAALRVQLREQHLYYQDQLLPVSRIIVHPQFYTAQIGADIALLELEEPVKVSSHVHTVTLPPASETFPPGMPCWVTGWGDVDNDERLPPPFPLKQVKVPIMENHICDAKYHLGAYTGDDVRIVRDDMLCAGNTRRDSCQGDSGGPLVCKVNGTWLQAGVVSWGEGCAQPNRPGIYTRVTYYLDWIHHYVPKK"
+        }
+    ],
+    "binding_affinity": [],
+    "uniprot_annotations": {
+        "1": {
+            "rcsb_uniprot_protein": {
+                "sequence": "MLNLLLLALPVLASRAYAAPAPGQALQRVGIVGGQEAPRSKWPWQVSLRVRDRYWMHFCGGSLIHPQWVLTAAHCVGPDVKDLAALRVQLREQHLYYQDQLLPVSRIIVHPQFYTAQIGADIALLELEEPVNVSSHVHTVTLPPASETFPPGMPCWVTGWGDVDNDERLPPPFPLKQVKVPIMENHICDAKYHLGAYTGDDVRIVRDDMLCAGNTRRDSCQGDSGGPLVCKVNGTWLQAGVVSWGEGCAQPNRPGIYTRVTYYLDWIHHYVPKKP",
+                "name": {
+                    "value": "Tryptase beta-2",
+                    "provenance_code": "up:Protein.up:recommendedName.up:fullName"
+                },
+                "function": {
+                    "details": "Tryptase is the major neutral protease present in mast cells and is secreted upon the coupled activation-degranulation response of this cell type. May play a role in innate immunity.",
+                    "provenance_code": "up:Function_Annotation"
+                },
+                "gene": [
+                    {
+                        "name": [
+                            {
+                                "type": "PRIMARY",
+                                "value": "TPSB2"
+                            },
+                            {
+                                "type": "SYNONYM",
+                                "value": "TPS2"
+                            }
+                        ]
+                    }
+                ],
+                "source_organism": {
+                    "scientific_name": "Homo sapiens",
+                    "taxonomy_id": 9606,
+                    "provenance_code": "up:organism"
+                },
+                "ec": [
+                    {
+                        "number": "3.4.21.59",
+                        "provenance_code": "up:Protein.up:recommendedName"
+                    }
+                ]
+            },
+            "rcsb_uniprot_feature": [
+                {
+                    "description": "In allele beta-II; dbSNP:rs200873299.",
+                    "feature_id": "VAR_088018",
+                    "type": "SEQUENCE_VARIANT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 53
+                        }
+                    ]
+                },
+                {
+                    "description": "Peptidase S1",
+                    "type": "DOMAIN",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 31,
+                            "end_seq_id": 272
+                        }
+                    ]
+                },
+                {
+                    "description": "In allele beta-II; dbSNP:rs775724245.",
+                    "feature_id": "VAR_088017",
+                    "type": "SEQUENCE_VARIANT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 52
+                        }
+                    ]
+                },
+                {
+                    "description": "In Ref. 5; ACZ98913.",
+                    "type": "SEQUENCE_CONFLICT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 240
+                        }
+                    ]
+                },
+                {
+                    "description": "Activation peptide",
+                    "feature_id": "PRO_0000027481",
+                    "type": "PROPEPTIDE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 19,
+                            "end_seq_id": 30
+                        }
+                    ]
+                },
+                {
+                    "description": "Charge relay system",
+                    "type": "ACTIVE_SITE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 224
+                        }
+                    ]
+                },
+                {
+                    "description": "In Ref. 1; AAA51843, 2; AAD13876, 3; AAD17858, 5; ACZ98911, 7; AAH29356 and 8; AAA36779/AAA36780.",
+                    "type": "SEQUENCE_CONFLICT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 132
+                        }
+                    ]
+                },
+                {
+                    "type": "SIGNAL_PEPTIDE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 1,
+                            "end_seq_id": 18
+                        }
+                    ]
+                },
+                {
+                    "description": "In allele beta-II; dbSNP:rs752157957.",
+                    "feature_id": "VAR_088016",
+                    "type": "SEQUENCE_VARIANT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 51
+                        }
+                    ]
+                },
+                {
+                    "description": "Tryptase beta-2",
+                    "feature_id": "PRO_0000027482",
+                    "type": "CHAIN",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 31,
+                            "end_seq_id": 275
+                        }
+                    ]
+                },
+                {
+                    "description": "Charge relay system",
+                    "type": "ACTIVE_SITE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 121
+                        }
+                    ]
+                },
+                {
+                    "description": "In Ref. 5; ACZ98913.",
+                    "type": "SEQUENCE_CONFLICT",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 141
+                        }
+                    ]
+                },
+                {
+                    "description": "Charge relay system",
+                    "type": "ACTIVE_SITE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 74
+                        }
+                    ]
+                },
+                {
+                    "description": "N-linked (GlcNAc...) asparagine",
+                    "type": "GLYCOSYLATION_SITE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 233
+                        }
+                    ]
+                },
+                {
+                    "description": "Phosphotyrosine",
+                    "type": "MODIFIED_RESIDUE",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 97
+                        }
+                    ]
+                }
+            ],
+            "rcsb_uniprot_annotation": [
+                {
+                    "annotation_id": "IPR001254",
+                    "name": "Serine proteases, trypsin domain",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "depth": 1,
+                            "id": "IPR001254",
+                            "name": "Serine proteases, trypsin domain"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Domain"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR009003",
+                    "name": "Peptidase S1, PA clan",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR009003",
+                            "name": "Peptidase S1, PA clan"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Homologous_superfamily"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0004252",
+                    "name": "serine-type endopeptidase activity",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0008233",
+                            "name": "peptidase activity"
+                        },
+                        {
+                            "id": "GO:0140096",
+                            "name": "catalytic activity, acting on a protein"
+                        },
+                        {
+                            "id": "GO:0017171",
+                            "name": "serine hydrolase activity"
+                        },
+                        {
+                            "id": "GO:0008236",
+                            "name": "serine-type peptidase activity"
+                        },
+                        {
+                            "id": "GO:0016787",
+                            "name": "hydrolase activity"
+                        },
+                        {
+                            "id": "GO:0004252",
+                            "name": "serine-type endopeptidase activity"
+                        },
+                        {
+                            "id": "GO:0003824",
+                            "name": "catalytic activity"
+                        },
+                        {
+                            "id": "GO:0003674",
+                            "name": "molecular_function"
+                        },
+                        {
+                            "id": "GO:0004175",
+                            "name": "endopeptidase activity"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0008236",
+                    "name": "serine-type peptidase activity",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0008233",
+                            "name": "peptidase activity"
+                        },
+                        {
+                            "id": "GO:0017171",
+                            "name": "serine hydrolase activity"
+                        },
+                        {
+                            "id": "GO:0140096",
+                            "name": "catalytic activity, acting on a protein"
+                        },
+                        {
+                            "id": "GO:0008236",
+                            "name": "serine-type peptidase activity"
+                        },
+                        {
+                            "id": "GO:0016787",
+                            "name": "hydrolase activity"
+                        },
+                        {
+                            "id": "GO:0003824",
+                            "name": "catalytic activity"
+                        },
+                        {
+                            "id": "GO:0003674",
+                            "name": "molecular_function"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0006508",
+                    "name": "proteolysis",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0071704",
+                            "name": "organic substance metabolic process"
+                        },
+                        {
+                            "id": "GO:1901564",
+                            "name": "organonitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0006508",
+                            "name": "proteolysis"
+                        },
+                        {
+                            "id": "GO:0008150",
+                            "name": "biological_process"
+                        },
+                        {
+                            "id": "GO:0006807",
+                            "name": "nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0008152",
+                            "name": "metabolic process"
+                        },
+                        {
+                            "id": "GO:0044238",
+                            "name": "primary metabolic process"
+                        },
+                        {
+                            "id": "GO:0019538",
+                            "name": "protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0043170",
+                            "name": "macromolecule metabolic process"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0005615",
+                    "name": "extracellular space",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0005575",
+                            "name": "cellular_component"
+                        },
+                        {
+                            "id": "GO:0005576",
+                            "name": "extracellular region"
+                        },
+                        {
+                            "id": "GO:0005615",
+                            "name": "extracellular space"
+                        },
+                        {
+                            "id": "GO:0110165",
+                            "name": "cellular anatomical entity"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR043504",
+                    "name": "Peptidase S1, PA clan, chymotrypsin-like fold",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR043504",
+                            "name": "Peptidase S1, PA clan, chymotrypsin-like fold"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Homologous_superfamily"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR018114",
+                    "name": "Serine proteases, trypsin family, histidine active site",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR018114",
+                            "name": "Serine proteases, trypsin family, histidine active site"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Active_site"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0062023",
+                    "name": "collagen-containing extracellular matrix",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0071944",
+                            "name": "cell periphery"
+                        },
+                        {
+                            "id": "GO:0031012",
+                            "name": "extracellular matrix"
+                        },
+                        {
+                            "id": "GO:0005575",
+                            "name": "cellular_component"
+                        },
+                        {
+                            "id": "GO:0030312",
+                            "name": "external encapsulating structure"
+                        },
+                        {
+                            "id": "GO:0062023",
+                            "name": "collagen-containing extracellular matrix"
+                        },
+                        {
+                            "id": "GO:0110165",
+                            "name": "cellular anatomical entity"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR001314",
+                    "name": "Peptidase S1A, chymotrypsin family",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "depth": 1,
+                            "id": "IPR001314",
+                            "name": "Peptidase S1A, chymotrypsin family"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Family"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR033116",
+                    "name": "Serine proteases, trypsin family, serine active site",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR033116",
+                            "name": "Serine proteases, trypsin family, serine active site"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Active_site"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "MONDO:0005348",
+                    "name": "keloid",
+                    "provenance_source": "PHAROS",
+                    "type": "disease",
+                    "annotation_lineage": [
+                        {
+                            "id": "MONDO:0006603",
+                            "name": "reactive cutaneous fibrous lesion"
+                        },
+                        {
+                            "id": "MONDO:0002051",
+                            "name": "integumentary system disorder"
+                        },
+                        {
+                            "id": "MONDO:0000001",
+                            "name": "disease"
+                        },
+                        {
+                            "id": "MONDO:0700096",
+                            "name": "human disease"
+                        },
+                        {
+                            "id": "MONDO:0005093",
+                            "name": "skin disorder"
+                        },
+                        {
+                            "id": "MONDO:0005348",
+                            "name": "keloid"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

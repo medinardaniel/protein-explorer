@@ -1,0 +1,712 @@
+{
+    "entry_id": "1A1X",
+    "polymer_entities": [
+        {
+            "entity_id": "1",
+            "type": "polypeptide(L)",
+            "sequence": "GSAGEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLLTSQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPDD"
+        }
+    ],
+    "binding_affinity": [],
+    "uniprot_annotations": {
+        "1": {
+            "rcsb_uniprot_protein": {
+                "sequence": "MAGEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLLTSQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPDD",
+                "name": {
+                    "value": "Protein p13 MTCP-1",
+                    "provenance_code": "up:Protein.up:recommendedName.up:fullName"
+                },
+                "function": {
+                    "details": "Enhances the phosphorylation and activation of AKT1 and AKT2.",
+                    "provenance_code": "up:Function_Annotation"
+                },
+                "gene": [
+                    {
+                        "name": [
+                            {
+                                "type": "PRIMARY",
+                                "value": "MTCP1"
+                            },
+                            {
+                                "type": "SYNONYM",
+                                "value": "C6.1B"
+                            }
+                        ]
+                    }
+                ],
+                "source_organism": {
+                    "scientific_name": "Homo sapiens",
+                    "taxonomy_id": 9606,
+                    "provenance_code": "up:organism"
+                }
+            },
+            "rcsb_uniprot_feature": [
+                {
+                    "description": "Protein p13 MTCP-1",
+                    "feature_id": "PRO_0000184486",
+                    "type": "CHAIN",
+                    "feature_positions": [
+                        {
+                            "beg_seq_id": 1,
+                            "end_seq_id": 107
+                        }
+                    ]
+                }
+            ],
+            "rcsb_uniprot_annotation": [
+                {
+                    "annotation_id": "GO:0033138",
+                    "name": "positive regulation of peptidyl-serine phosphorylation",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0050794",
+                            "name": "regulation of cellular process"
+                        },
+                        {
+                            "id": "GO:0042327",
+                            "name": "positive regulation of phosphorylation"
+                        },
+                        {
+                            "id": "GO:0031399",
+                            "name": "regulation of protein modification process"
+                        },
+                        {
+                            "id": "GO:0001932",
+                            "name": "regulation of protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0051247",
+                            "name": "positive regulation of protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0048518",
+                            "name": "positive regulation of biological process"
+                        },
+                        {
+                            "id": "GO:0033135",
+                            "name": "regulation of peptidyl-serine phosphorylation"
+                        },
+                        {
+                            "id": "GO:0031325",
+                            "name": "positive regulation of cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0045937",
+                            "name": "positive regulation of phosphate metabolic process"
+                        },
+                        {
+                            "id": "GO:0018209",
+                            "name": "peptidyl-serine modification"
+                        },
+                        {
+                            "id": "GO:0080090",
+                            "name": "regulation of primary metabolic process"
+                        },
+                        {
+                            "id": "GO:0051171",
+                            "name": "regulation of nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0009893",
+                            "name": "positive regulation of metabolic process"
+                        },
+                        {
+                            "id": "GO:0031401",
+                            "name": "positive regulation of protein modification process"
+                        },
+                        {
+                            "id": "GO:0071704",
+                            "name": "organic substance metabolic process"
+                        },
+                        {
+                            "id": "GO:0018105",
+                            "name": "peptidyl-serine phosphorylation"
+                        },
+                        {
+                            "id": "GO:0019220",
+                            "name": "regulation of phosphate metabolic process"
+                        },
+                        {
+                            "id": "GO:0006796",
+                            "name": "phosphate-containing compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0018193",
+                            "name": "peptidyl-amino acid modification"
+                        },
+                        {
+                            "id": "GO:0008150",
+                            "name": "biological_process"
+                        },
+                        {
+                            "id": "GO:0006807",
+                            "name": "nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0010604",
+                            "name": "positive regulation of macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0019538",
+                            "name": "protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0001934",
+                            "name": "positive regulation of protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0006793",
+                            "name": "phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0036211",
+                            "name": "protein modification process"
+                        },
+                        {
+                            "id": "GO:0048522",
+                            "name": "positive regulation of cellular process"
+                        },
+                        {
+                            "id": "GO:0050789",
+                            "name": "regulation of biological process"
+                        },
+                        {
+                            "id": "GO:1901564",
+                            "name": "organonitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0006468",
+                            "name": "protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0010562",
+                            "name": "positive regulation of phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0016310",
+                            "name": "phosphorylation"
+                        },
+                        {
+                            "id": "GO:0044237",
+                            "name": "cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0051246",
+                            "name": "regulation of protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0065007",
+                            "name": "biological regulation"
+                        },
+                        {
+                            "id": "GO:0031323",
+                            "name": "regulation of cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0044238",
+                            "name": "primary metabolic process"
+                        },
+                        {
+                            "id": "GO:0060255",
+                            "name": "regulation of macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0033138",
+                            "name": "positive regulation of peptidyl-serine phosphorylation"
+                        },
+                        {
+                            "id": "GO:0051173",
+                            "name": "positive regulation of nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0043412",
+                            "name": "macromolecule modification"
+                        },
+                        {
+                            "id": "GO:0051174",
+                            "name": "regulation of phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0008152",
+                            "name": "metabolic process"
+                        },
+                        {
+                            "id": "GO:0009987",
+                            "name": "cellular process"
+                        },
+                        {
+                            "id": "GO:0042325",
+                            "name": "regulation of phosphorylation"
+                        },
+                        {
+                            "id": "GO:0043170",
+                            "name": "macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0019222",
+                            "name": "regulation of metabolic process"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0019901",
+                    "name": "protein kinase binding",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0005515",
+                            "name": "protein binding"
+                        },
+                        {
+                            "id": "GO:0005488",
+                            "name": "binding"
+                        },
+                        {
+                            "id": "GO:0019900",
+                            "name": "kinase binding"
+                        },
+                        {
+                            "id": "GO:0019899",
+                            "name": "enzyme binding"
+                        },
+                        {
+                            "id": "GO:0019901",
+                            "name": "protein kinase binding"
+                        },
+                        {
+                            "id": "GO:0003674",
+                            "name": "molecular_function"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0043539",
+                    "name": "protein serine/threonine kinase activator activity",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0030234",
+                            "name": "enzyme regulator activity"
+                        },
+                        {
+                            "id": "GO:0043539",
+                            "name": "protein serine/threonine kinase activator activity"
+                        },
+                        {
+                            "id": "GO:0019209",
+                            "name": "kinase activator activity"
+                        },
+                        {
+                            "id": "GO:0008047",
+                            "name": "enzyme activator activity"
+                        },
+                        {
+                            "id": "GO:0140677",
+                            "name": "molecular function activator activity"
+                        },
+                        {
+                            "id": "GO:0098772",
+                            "name": "molecular function regulator activity"
+                        },
+                        {
+                            "id": "GO:0030295",
+                            "name": "protein kinase activator activity"
+                        },
+                        {
+                            "id": "GO:0003674",
+                            "name": "molecular_function"
+                        },
+                        {
+                            "id": "GO:0019887",
+                            "name": "protein kinase regulator activity"
+                        },
+                        {
+                            "id": "GO:0019207",
+                            "name": "kinase regulator activity"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR036672",
+                    "name": "TCL1/MTCP1 superfamily",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR036672",
+                            "name": "TCL1/MTCP1 superfamily"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Homologous_superfamily"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "IPR004832",
+                    "name": "TCL1/MTCP1",
+                    "provenance_source": "UNIPROT",
+                    "type": "InterPro",
+                    "annotation_lineage": [
+                        {
+                            "id": "IPR004832",
+                            "name": "TCL1/MTCP1"
+                        }
+                    ],
+                    "additional_properties": [
+                        {
+                            "name": "INTERPRO_TYPE",
+                            "values": [
+                                "Family"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0032991",
+                    "name": "protein-containing complex",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0032991",
+                            "name": "protein-containing complex"
+                        },
+                        {
+                            "id": "GO:0005575",
+                            "name": "cellular_component"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "GO:0071902",
+                    "name": "positive regulation of protein serine/threonine kinase activity",
+                    "provenance_source": "UNIPROT",
+                    "type": "GO",
+                    "annotation_lineage": [
+                        {
+                            "id": "GO:0050794",
+                            "name": "regulation of cellular process"
+                        },
+                        {
+                            "id": "GO:0042327",
+                            "name": "positive regulation of phosphorylation"
+                        },
+                        {
+                            "id": "GO:0050790",
+                            "name": "regulation of catalytic activity"
+                        },
+                        {
+                            "id": "GO:0051338",
+                            "name": "regulation of transferase activity"
+                        },
+                        {
+                            "id": "GO:0045937",
+                            "name": "positive regulation of phosphate metabolic process"
+                        },
+                        {
+                            "id": "GO:0080090",
+                            "name": "regulation of primary metabolic process"
+                        },
+                        {
+                            "id": "GO:0051171",
+                            "name": "regulation of nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0071902",
+                            "name": "positive regulation of protein serine/threonine kinase activity"
+                        },
+                        {
+                            "id": "GO:0009893",
+                            "name": "positive regulation of metabolic process"
+                        },
+                        {
+                            "id": "GO:0019220",
+                            "name": "regulation of phosphate metabolic process"
+                        },
+                        {
+                            "id": "GO:0006796",
+                            "name": "phosphate-containing compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0008150",
+                            "name": "biological_process"
+                        },
+                        {
+                            "id": "GO:0010604",
+                            "name": "positive regulation of macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0006793",
+                            "name": "phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0036211",
+                            "name": "protein modification process"
+                        },
+                        {
+                            "id": "GO:0001934",
+                            "name": "positive regulation of protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0050789",
+                            "name": "regulation of biological process"
+                        },
+                        {
+                            "id": "GO:0006468",
+                            "name": "protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0010562",
+                            "name": "positive regulation of phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0016310",
+                            "name": "phosphorylation"
+                        },
+                        {
+                            "id": "GO:0044237",
+                            "name": "cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0051246",
+                            "name": "regulation of protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0031323",
+                            "name": "regulation of cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0044238",
+                            "name": "primary metabolic process"
+                        },
+                        {
+                            "id": "GO:0065009",
+                            "name": "regulation of molecular function"
+                        },
+                        {
+                            "id": "GO:0033674",
+                            "name": "positive regulation of kinase activity"
+                        },
+                        {
+                            "id": "GO:0043549",
+                            "name": "regulation of kinase activity"
+                        },
+                        {
+                            "id": "GO:0043412",
+                            "name": "macromolecule modification"
+                        },
+                        {
+                            "id": "GO:0071900",
+                            "name": "regulation of protein serine/threonine kinase activity"
+                        },
+                        {
+                            "id": "GO:0051174",
+                            "name": "regulation of phosphorus metabolic process"
+                        },
+                        {
+                            "id": "GO:0008152",
+                            "name": "metabolic process"
+                        },
+                        {
+                            "id": "GO:0043170",
+                            "name": "macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0019222",
+                            "name": "regulation of metabolic process"
+                        },
+                        {
+                            "id": "GO:0031399",
+                            "name": "regulation of protein modification process"
+                        },
+                        {
+                            "id": "GO:0001932",
+                            "name": "regulation of protein phosphorylation"
+                        },
+                        {
+                            "id": "GO:0051247",
+                            "name": "positive regulation of protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0048518",
+                            "name": "positive regulation of biological process"
+                        },
+                        {
+                            "id": "GO:0031325",
+                            "name": "positive regulation of cellular metabolic process"
+                        },
+                        {
+                            "id": "GO:0044093",
+                            "name": "positive regulation of molecular function"
+                        },
+                        {
+                            "id": "GO:0031401",
+                            "name": "positive regulation of protein modification process"
+                        },
+                        {
+                            "id": "GO:0071704",
+                            "name": "organic substance metabolic process"
+                        },
+                        {
+                            "id": "GO:0006807",
+                            "name": "nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0019538",
+                            "name": "protein metabolic process"
+                        },
+                        {
+                            "id": "GO:0045860",
+                            "name": "positive regulation of protein kinase activity"
+                        },
+                        {
+                            "id": "GO:0048522",
+                            "name": "positive regulation of cellular process"
+                        },
+                        {
+                            "id": "GO:1901564",
+                            "name": "organonitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0051347",
+                            "name": "positive regulation of transferase activity"
+                        },
+                        {
+                            "id": "GO:0065007",
+                            "name": "biological regulation"
+                        },
+                        {
+                            "id": "GO:0043085",
+                            "name": "positive regulation of catalytic activity"
+                        },
+                        {
+                            "id": "GO:0045859",
+                            "name": "regulation of protein kinase activity"
+                        },
+                        {
+                            "id": "GO:0060255",
+                            "name": "regulation of macromolecule metabolic process"
+                        },
+                        {
+                            "id": "GO:0051173",
+                            "name": "positive regulation of nitrogen compound metabolic process"
+                        },
+                        {
+                            "id": "GO:0042325",
+                            "name": "regulation of phosphorylation"
+                        },
+                        {
+                            "id": "GO:0009987",
+                            "name": "cellular process"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "MONDO:0004992",
+                    "name": "cancer",
+                    "provenance_source": "PHAROS",
+                    "type": "disease",
+                    "annotation_lineage": [
+                        {
+                            "id": "MONDO:0045024",
+                            "name": "cancer or benign tumor"
+                        },
+                        {
+                            "id": "MONDO:0000001",
+                            "name": "disease"
+                        },
+                        {
+                            "id": "MONDO:0700096",
+                            "name": "human disease"
+                        },
+                        {
+                            "id": "MONDO:0005070",
+                            "name": "neoplasm"
+                        },
+                        {
+                            "id": "MONDO:0023370",
+                            "name": "neoplastic disease or syndrome"
+                        },
+                        {
+                            "id": "MONDO:0004992",
+                            "name": "cancer"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "MONDO:0009807",
+                    "name": "osteosarcoma",
+                    "provenance_source": "PHAROS",
+                    "type": "disease",
+                    "annotation_lineage": [
+                        {
+                            "id": "MONDO:0005089",
+                            "name": "sarcoma"
+                        },
+                        {
+                            "id": "MONDO:0045024",
+                            "name": "cancer or benign tumor"
+                        },
+                        {
+                            "id": "MONDO:0000001",
+                            "name": "disease"
+                        },
+                        {
+                            "id": "MONDO:0700096",
+                            "name": "human disease"
+                        },
+                        {
+                            "id": "MONDO:0005070",
+                            "name": "neoplasm"
+                        },
+                        {
+                            "id": "MONDO:0023370",
+                            "name": "neoplastic disease or syndrome"
+                        },
+                        {
+                            "id": "MONDO:0004992",
+                            "name": "cancer"
+                        },
+                        {
+                            "id": "MONDO:0009807",
+                            "name": "osteosarcoma"
+                        }
+                    ]
+                },
+                {
+                    "annotation_id": "MONDO:0005385",
+                    "name": "vascular disease",
+                    "provenance_source": "PHAROS",
+                    "type": "disease",
+                    "annotation_lineage": [
+                        {
+                            "id": "MONDO:0000001",
+                            "name": "disease"
+                        },
+                        {
+                            "id": "MONDO:0700096",
+                            "name": "human disease"
+                        },
+                        {
+                            "id": "MONDO:0004995",
+                            "name": "cardiovascular disorder"
+                        },
+                        {
+                            "id": "MONDO:0005385",
+                            "name": "vascular disorder"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
