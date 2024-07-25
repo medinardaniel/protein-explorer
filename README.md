@@ -2,7 +2,9 @@
 
 Author: Daniel Medina
 
-Deployed app: https://proteinexplorer.vercel.app/
+Video Demo: https://youtu.be/CY2GGeJwgm0
+
+Deployed app: https://proteinexplorer.vercel.app/ (Note: Gist Embedding endpoint may be down)
 
 Deployed frontend repo: https://github.com/medinardaniel/prot-explorer-frontend
 
